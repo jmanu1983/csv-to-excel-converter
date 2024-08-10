@@ -1,0 +1,20 @@
+# Data files
+input/
+output/
+Fichiers_CSV/
+Fichiers_Excel_créés/
+
+# Legacy directories
+fichiers_csv/
+
+# Logs
+logs/
+Logs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
