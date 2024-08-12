@@ -1,0 +1,3 @@
+Ouvert le fichier CSV : C:\Users\jesus\OneDrive\Documents\01_NSP\09_DEV\csvToExcel\Fichiers_CSV\liste_badges_Patek.csv
+Erreur lors de la sauvegarde en tant que fichier Excel : C:\Users\jesus\OneDrive\Documents\01_NSP\09_DEV\csvToExcel\Fichiers_Excel_créés\liste_badges_Patek.xlsx
+Renommé le fichier CSV : liste_badges_Patek_18072023_2317.csv

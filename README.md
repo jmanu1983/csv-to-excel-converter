@@ -1,24 +1,24 @@
-# CSV to Excel Converter
+# Convertisseur CSV vers Excel
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-5391FE?logo=powershell&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-A **PowerShell batch converter** that transforms all CSV files in an input directory into formatted Excel (.xlsx) files. Processed CSV files are automatically renamed with a timestamp to prevent reprocessing.
+**Convertisseur batch PowerShell** qui transforme tous les fichiers CSV d'un répertoire d'entrée en fichiers Excel (.xlsx) formatés. Les fichiers CSV traités sont automatiquement renommés avec un horodatage pour éviter le retraitement.
 
-## Features
+## Fonctionnalités
 
-- **Batch Processing** — Converts all `.csv` files in the input directory
-- **Auto-Sizing** — Excel columns are automatically sized for readability
-- **Logging** — Timestamped logs for each conversion run
-- **File Archiving** — Processed CSV files are renamed with a timestamp suffix
-- **Semicolon Delimiter** — Supports European-style CSV files (`;` separator)
+- **Traitement par lot** — Convertit tous les fichiers `.csv` du répertoire d'entrée
+- **Dimensionnement auto** — Colonnes Excel automatiquement ajustées pour la lisibilité
+- **Journalisation** — Logs horodatés pour chaque exécution
+- **Archivage** — Fichiers CSV traités renommés avec un suffixe horodaté
+- **Délimiteur point-virgule** — Supporte les fichiers CSV au format européen (`;`)
 
-## Tech Stack
+## Stack technique
 
-| Component | Technology |
-|-----------|-----------|
-| Language | PowerShell 5.1+ |
-| Excel Module | ImportExcel |
+| Composant | Technologie |
+|-----------|------------|
+| Langage | PowerShell 5.1+ |
+| Module Excel | ImportExcel |
 
 ## Installation
 
@@ -27,34 +27,34 @@ git clone https://github.com/jmanu1983/csv-to-excel-converter.git
 cd csv-to-excel-converter
 ```
 
-Install the required PowerShell module:
+Installer le module PowerShell requis :
 
 ```powershell
 Install-Module -Name ImportExcel -Force
 ```
 
-## Usage
+## Utilisation
 
-1. Place your CSV files in the `input/` directory
-2. Run the script:
+1. Placer vos fichiers CSV dans le répertoire `input/`
+2. Exécuter le script :
 
 ```powershell
 .\convertCSVtoExcel.ps1
 ```
 
-3. Find the generated Excel files in `output/`
+3. Récupérer les fichiers Excel générés dans `output/`
 
-## Project Structure
+## Structure du projet
 
 ```
 csv-to-excel-converter/
-├── convertCSVtoExcel.ps1   # Main conversion script
-├── input/                  # Place CSV files here
-├── output/                 # Generated Excel files
-├── logs/                   # Conversion logs
+├── convertCSVtoExcel.ps1   # Script de conversion principal
+├── input/                  # Déposer les fichiers CSV ici
+├── output/                 # Fichiers Excel générés
+├── logs/                   # Logs de conversion
 └── README.md
 ```
 
-## License
+## Licence
 
-This project is licensed under the MIT License.
+Ce projet est sous licence MIT.
